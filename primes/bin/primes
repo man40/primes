@@ -15,4 +15,4 @@ if __name__ == '__main__':
     parser.add_argument('number', type=int, help='Number of which to find prime factorizations')
     args = parser.parse_args()
     print(prime_factors(args.number))
-    print(prime_factors.cache_dpath())
+    print('\nPersistent cache is stored in {}'.format(prime_factors.cache_dpath()))
