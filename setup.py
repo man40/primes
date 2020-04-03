@@ -8,7 +8,7 @@ def do_setup():
         long_description = fh.read()
     setup(
         name='primes',
-        version='0.4',
+        version='0.5',
         description='Find prime factorizations',
         url='https://github.com/man40/primes',
         author='Manol Manolov',
