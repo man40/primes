@@ -1,4 +1,13 @@
+# IDEs
 .idea/
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# buld
 dist/
 build/
 *.egg-info/
